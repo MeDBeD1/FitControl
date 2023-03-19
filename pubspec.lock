@@ -75,6 +75,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "910f85bce16fb5c6f614e117efa303e85a1731bb0081edf3604a2ae6e9a3cc91"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.17.0"
   js:
     dependency: transitive
     description:
@@ -91,6 +99,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  logging:
+    dependency: transitive
+    description:
+      name: logging
+      sha256: "04094f2eb032cbb06c6f6e8d3607edcfcb0455e2bb6cbc010cb01171dcb64e6d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
   matcher:
     dependency: transitive
     description:
@@ -144,6 +160,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
+  state_machine:
+    dependency: "direct main"
+    description:
+      name: state_machine
+      sha256: ae3adda016c5b547fe05a823d29a94c78665d715261631970b02c274c13fd9c8
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.11"
   stream_channel:
     dependency: transitive
     description:
@@ -184,5 +208,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  w_common:
+    dependency: transitive
+    description:
+      name: w_common
+      sha256: "2e65f7be31ba38e57acafba090e79445c7239e30a8f2f1ebad5f4e1b9f1ecc80"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.2"
 sdks:
   dart: ">=2.19.4 <3.0.0"
