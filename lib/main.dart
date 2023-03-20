@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:state_machine/state_machine.dart';
 
 void main() {
   runApp(const FitControl());
@@ -48,25 +47,31 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-enum States {
-  home,
-  diet,
-  messages,
-  training,
-  profile,
-}
-
-enum Events {
-  home,
-  diet,
-  messages,
-  training,
-  profile,
-}
-
 class _HomePageState extends State<HomePage> {
-  );
   int _selectedIndex = 0;
+  static const List<Widget> _pages = <Widget>[
+    Icon(
+      Icons.phone_android_outlined,
+      size: 150,
+    ),
+    Icon(
+      Icons.camera,
+      size: 150,
+    ),
+    Icon(
+      Icons.food_bank_rounded,
+      size: 150,
+    ),
+    Icon(
+      Icons.fitness_center_rounded,
+      size: 150,
+    ),
+    Icon(
+      Icons.chat,
+      size: 150,
+    ),
+  ];
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
