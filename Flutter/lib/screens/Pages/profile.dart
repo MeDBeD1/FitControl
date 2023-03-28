@@ -32,6 +32,7 @@ class UserProfile extends StatelessWidget {
               )
             },
           )
+
       ),
     );
   }

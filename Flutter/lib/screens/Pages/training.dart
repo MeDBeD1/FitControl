@@ -20,6 +20,11 @@ class UserTraining extends StatelessWidget {
               ]
           )),
       body: Center(child: Text('Train')),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+        Navigator.pushNamed(context, '/add');
+        },
+      )
     );
   }
 }
